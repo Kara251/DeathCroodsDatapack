@@ -3,12 +3,17 @@ A Minecraft datapack that can broadcast dead player‘s coordinate.
 
 版本兼容性：
 
-Minecraft 1.20.2-1.20.4: pack_format 18
+Minecraft 1.21.4-1.21.5: pack_format 57
+
+Minecraft 1.21.2-1.21.3: pack_format 48
+
+Minecraft 1.21-1.21.1: pack_format 46
+
+Minecraft 1.20.2-1.20.5: pack_format 18
 
 Minecraft 1.20-1.20.1: pack_format 15
 
 Minecraft 1.19.4: pack_format 12
-
 
 使用方法：下载文件并按以下目录树放置文件。
 + world/
