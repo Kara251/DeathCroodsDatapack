@@ -3,6 +3,7 @@ execute as @a[gamemode=!spectator] at @s store result score @s posX run data get
 execute as @a[gamemode=!spectator] at @s store result score @s posY run data get entity @s Pos[1] 1
 execute as @a[gamemode=!spectator] at @s store result score @s posZ run data get entity @s Pos[2] 1
 
+# 正确的维度检测方式
 execute as @a[gamemode=!spectator] at @s if dimension minecraft:overworld run scoreboard players set @s dimension 0
 execute as @a[gamemode=!spectator] at @s if dimension minecraft:the_nether run scoreboard players set @s dimension 1
 execute as @a[gamemode=!spectator] at @s if dimension minecraft:the_end run scoreboard players set @s dimension 2
