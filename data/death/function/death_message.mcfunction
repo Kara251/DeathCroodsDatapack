@@ -1,4 +1,4 @@
-# 存储死亡玩家坐标到记分板
+# 存储死亡玩家坐标至记分板
 execute store result score @s posX run data get entity @s Pos[0] 1
 execute store result score @s posY run data get entity @s Pos[1] 1  
 execute store result score @s posZ run data get entity @s Pos[2] 1
