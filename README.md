@@ -1,5 +1,6 @@
 # DeathCroodsDatapack
 A Minecraft datapack that can broadcast dead player‘s coordinate.
+死亡坐标公告
 
 版本兼容性：
 
