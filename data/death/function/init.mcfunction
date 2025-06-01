@@ -1,4 +1,4 @@
-# 初始化记分板
+# 记分板初始化
 scoreboard objectives add deathCount deathCount "死亡次数"
 scoreboard objectives add posX dummy "X坐标"
 scoreboard objectives add posY dummy "Y坐标" 
