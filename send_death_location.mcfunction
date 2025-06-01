@@ -1,2 +1,0 @@
-# 发送死亡坐标到聊天
-tellraw @a [{"text":"[死亡提醒] ","color":"red","bold":true},{"selector":"@s","color":"yellow"},{"text":" 在坐标 (","color":"white"},{"score":{"name":"@s","objective":"death_x"},"color":"gold"},{"text":", ","color":"white"},{"score":{"name":"@s","objective":"death_y"},"color":"gold"},{"text":", ","color":"white"},{"score":{"name":"@s","objective":"death_z"},"color":"gold"},{"text":") 死亡了","color":"white"}]
